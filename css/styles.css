@@ -1,17 +1,12 @@
-html{
-  padding: 0;
-  margin: 0;
-}
-
 /*Add styling to body of page*/
 body{
   font-family: 'Josefin Sans', sans-serif;
-  background-color: rgba(255, 0, 0, 0);
   width: 100%;
   padding-bottom: 70px;
-  /*background-color: #B2EBF2;*/
-
+  background-color :#80DEEA;
 }
+
+/*Add styling to the title of the page id title*/
 #title{
   transform: translateY(-50%);
   text-align: center;
@@ -20,68 +15,67 @@ body{
   position: absolute;
   color:#FFFCFC;
 }
+
+/*Add styling to the image on aboutme section*/
 #about-img{
   width: 50%;
 }
 
 /*Add styling to the paragraph and lists*/
-p,ul,li{
+#aboutme-para{
+  background-color: inherit;
+  padding-top: 60px;
+  margin: 60px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 33px;
+  font-size: 25px;
   text-align: center;
 }
 
-/* Remove the navbar's default margin-bottom and rounded borders */
-.navbar-default {
-    background-color: transparent;
-    
+/*Add styling to the lists under the about me section*/
+.aboutme-edu li{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 23px;
+  text-align: left;
 }
 
-
-/*Add styling to all header h1,h2,h3*/
-h1,h2,h3{
+/*Add styling to all header h1,h3*/
+h1,h3{
   text-align: center;
+  font-weight: bold;
+}
+
+/*Add styling header h2*/
+h2{
+  padding-left: 20px;
+  text-align: left;
 }
 
 /*Add color to important words*/
 .important{
   color: blue;
 }
-/*Add styling to the header about-me*/
-.header-aboutme{
-  text-align: center;
-}
 
 /*Add styling to the card in about me section*/
  .about-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    padding: 10px;
-    text-align: center;
-    padding: 20px;
-
+   background-color: #EF6F6C;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 60px;
+  padding: 10px;
+  text-align: center;
+  padding: 20px;
 }
 
 /*Add styling to the card in about me section*/
  .paragraph-card{
-    background-color: #EF6F6C;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 450px;
-    margin:top: 20px;
-    padding: 10px;
-    text-align: center;
-}
-.title {
-    color: grey;
-    font-size: 18px;
-}
-
-ul{
-  text-align: inherit;
-  font-family: sans-serif;
-  font-size: 15px;
+  background-color: #EF6F6C;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
 
 }
+/*Add styling to the button in the card aboutme*/
 button {
     border: none;
     outline: 0;
@@ -94,43 +88,21 @@ button {
     width: 100%;
     font-size: 18px;
 }
-
+/*Add styling to all a tag elements*/
 a {
     text-decoration: none;
     font-size: 22px;
     color: black;
 }
-
-button:hover, a:hover {
-    opacity: 0.7;
-}
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
+/*Add styling to container */
 .container {
   padding:0;
-    width: 100%;
-    background-color: #f2f2f2;
-
+  width: 100%;
+  background-color: #f2f2f2;
+}
+#container-aboutme{
+  background-color: inherit;
+}
+.nav navbar-nav{
+  color: #EF6F6C;
 }
