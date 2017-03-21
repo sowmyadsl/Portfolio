@@ -8,6 +8,7 @@ body{
   font-family: 'Josefin Sans', sans-serif;
   background-color: rgba(255, 0, 0, 0);
   width: 100%;
+  padding-bottom: 70px;
   /*background-color: #B2EBF2;*/
 
 }
@@ -27,67 +28,19 @@ body{
 p,ul,li{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 33px;
-  text-align: left;
+  text-align: center;
 }
 
 /* Remove the navbar's default margin-bottom and rounded borders */
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-  padding:10px;
-  opacity: .5;
-
-}
-/*Add Custom style to the navbar*/
-.navbar-custom {
-  background-color: rgba(255,255,255,.5);
-  color:#ffffff;
-  border-radius:0;
-};
-
-.navbar-custom .navbar-nav > li > a {
-    color:#fff;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 35px;
-
+.navbar-default {
+    background-color: transparent;
+    
 }
 
-.navbar-custom .navbar-nav > .active > a {
-    color: #000000;
-    background-color:transparent;
-font-family: 'Josefin Sans', sans-serif;
-}
-
-.navbar-custom .navbar-nav > li > a:hover,
-.navbar-custom .navbar-nav > li > a:focus,
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus,
-.navbar-custom .navbar-nav > .open >a {
-  font-family: 'Josefin Sans', sans-serif;
-    text-decoration: none;
-    background-color: #80CBC4;
-}
-
-.navbar-custom .navbar-brand {
-    color:#eeeeee;
-}
-.navbar-custom .navbar-toggle {
-    background-color:#eeeeee;
-}
-.navbar-custom .icon-bar {
-    background-color:#33aa33;
-}
 
 /*Add styling to all header h1,h2,h3*/
 h1,h2,h3{
   text-align: center;
-}
-/* Add a gray background color and some padding to the footer */
-footer {
-  background-color: inherit;
-  padding: 25px;
-  margin-top:50px;
-
 }
 
 /*Add color to important words*/
@@ -99,13 +52,6 @@ footer {
   text-align: center;
 }
 
-
-/*Add Styling to Jumbotron-project*/
-.jumbo-project{
-  margin: 0;
-  padding: 0;
-}
-
 /*Add styling to the card in about me section*/
  .about-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -115,8 +61,10 @@ footer {
     padding: 20px;
 
 }
+
 /*Add styling to the card in about me section*/
  .paragraph-card{
+    background-color: #EF6F6C;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 450px;
     margin:top: 20px;
