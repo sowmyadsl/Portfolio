@@ -21,21 +21,17 @@ body{
   width: 50%;
 }
 
-/*Add styling to the paragraph and lists*/
-#aboutme-para{
-  background-color: inherit;
-  padding-top: 60px;
+.well{
+  padding-top: 20px;
   margin: 60px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 25px;
-  float: left;
-
+  font-size: 18px;
+   background-color: #EF6F6C;
 }
 
 /*Add styling to the lists under the about me section*/
 .aboutme-edu li,ol{
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 23px;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -67,7 +63,7 @@ h2{
 }
 
 /*Add styling to the card in about me section*/
- .paragraph-card{
+ .project-card{
   background-color: #EF6F6C;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 450px;
@@ -78,16 +74,16 @@ h2{
 }
 /*Add styling to the button in the card aboutme*/
 button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
 /*Add styling to all a tag elements*/
 a {
