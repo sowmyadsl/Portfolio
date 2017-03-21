@@ -17,10 +17,12 @@ body{
   width: 100%;
   top: 50%;
   position: absolute;
+  color:#FFFCFC;
 }
 #about-img{
   width: 50%;
 }
+
 /*Add styling to the paragraph and lists*/
 p,ul,li{
   font-family: 'Josefin Sans', sans-serif;
@@ -33,13 +35,15 @@ p,ul,li{
   margin-bottom: 0;
   border-radius: 0;
   padding:10px;
+  opacity: .5;
+
 }
 /*Add Custom style to the navbar*/
 .navbar-custom {
-    background-color:#E57373;
-    color:#ffffff;
-    border-radius:0;
-}
+  background-color: rgba(255,255,255,.5);
+  color:#ffffff;
+  border-radius:0;
+};
 
 .navbar-custom .navbar-nav > li > a {
     color:#fff;
@@ -49,7 +53,7 @@ p,ul,li{
 }
 
 .navbar-custom .navbar-nav > .active > a {
-    color: #ffffff;
+    color: #000000;
     background-color:transparent;
 font-family: 'Josefin Sans', sans-serif;
 }
