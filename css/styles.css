@@ -34,7 +34,6 @@ body{
 
 /*Add styling to the lists under the about me section*/
 .aboutme-edu li,ol{
-  float left;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 23px;
   text-align: left;
@@ -104,7 +103,4 @@ a {
 }
 #container-aboutme{
   background-color: inherit;
-}
-.nav navbar-nav{
-  color: #EF6F6C;
 }
